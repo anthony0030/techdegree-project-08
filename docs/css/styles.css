@@ -25,19 +25,27 @@ a {
   color: #39add1;
   font-weight: 700; }
 
-a:hover {
-  color: #111; }
-
 header {
   padding-top: 10px; }
-
-header nav {
-  padding-bottom: 50px;
-  text-align: left; }
-
-header nav ul li {
-  display: inline-block;
-  margin-right: 20px; }
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 20px; }
+    header nav svg {
+      vertical-align: top;
+      width: 18px; }
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+    header nav li {
+      margin-right: 20px;
+      display: inline-block; }
+      header nav li:hover a {
+        color: #111; }
+      header nav li:hover svg .st0 {
+        fill: #111; }
 
 main {
   padding-top: 50px; }

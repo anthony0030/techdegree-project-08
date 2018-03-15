@@ -413,7 +413,7 @@
 	"\/source\/svgs\/nav-contact.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/svgs\/nav-contact.svg",
 		"oF": 0,
 		"opt": 0,
@@ -423,7 +423,7 @@
 	"\/source\/svgs\/nav-heart.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/svgs\/nav-heart.svg",
 		"oF": 0,
 		"opt": 0,
@@ -433,7 +433,7 @@
 	"\/source\/svgs\/nav-location.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/svgs\/nav-location.svg",
 		"oF": 0,
 		"opt": 0,
