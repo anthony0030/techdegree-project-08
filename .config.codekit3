@@ -294,8 +294,8 @@
 	"\/source\/favicon\/manifest.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/docs\/favicon\/manifest-min.json",
-		"oF": 1,
+		"oAP": "\/docs\/favicon\/manifest.json",
+		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
@@ -2268,8 +2268,8 @@
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
-		"autoOutputAction": 1,
-		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.json",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
