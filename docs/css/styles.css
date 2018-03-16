@@ -75,18 +75,15 @@ table {
 
 td:nth-of-type(1) {
   color: #B8805E; }
-  td:nth-of-type(1) svg path.body {
-    fill: #B8805E; }
 
 td:nth-of-type(2) {
   color: #E8AB85; }
-  td:nth-of-type(2) svg path.body {
-    fill: #E8AB85; }
 
 td:nth-of-type(3) {
   color: #824C2D; }
-  td:nth-of-type(3) svg path.body {
-    fill: #824C2D; }
+
+td:nth-of-type(4) {
+  color: #52595E; }
 
 div.logo {
   width: 20%;

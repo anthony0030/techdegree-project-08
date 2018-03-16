@@ -8,6 +8,8 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:700,300', rel='stylesheet', type='text/css')
     include _favicon
   body
+    div(style="display:none")
+      include svgs/corgi.svg
     div#container.clearfix
       header
         nav
@@ -30,13 +32,18 @@ html(lang='en')
         table
           tr
             td
-              include svgs/corgi.svg
+              svg
+                use(xlink:href="#corgi")
             td
-              include svgs/corgi.svg
+              svg
+                use(xlink:href="#corgi")
             td
-              include svgs/corgi.svg
+              svg
+                use(xlink:href="#corgi")
             td
-              include svgs/corgi.svg
+              svg
+                use(xlink:href="#corgi")
+
           tr
             td Sable
             td Fawn
