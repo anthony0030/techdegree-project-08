@@ -38,6 +38,8 @@ header {
     header nav svg {
       vertical-align: top;
       width: 18px; }
+      header nav svg path.st0 {
+        fill: #44ACCD; }
     header nav ul {
       list-style-type: none;
       margin: 0;
@@ -85,4 +87,8 @@ td:nth-of-type(3) {
   color: #824C2D; }
   td:nth-of-type(3) svg path.body {
     fill: #824C2D; }
+
+div.logo {
+  width: 20%;
+  margin: 0 auto; }
 /*# sourceMappingURL=styles.css.map */
