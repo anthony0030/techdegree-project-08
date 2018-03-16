@@ -39,10 +39,11 @@ header nav svg {
 header nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 0 !important;
+  list-style-type: none; }
 
 header nav li {
-  padding: 20px; }
+  padding-top: 20px; }
 
 main {
   padding-top: 50px; }
@@ -83,7 +84,7 @@ div.logo-container h1 {
   margin-bottom: 0; }
 
 div.logo {
-  width: 30%;
+  width: 50%;
   margin: 0 auto; }
   div.logo svg g.headding {
     display: none; }
@@ -91,12 +92,12 @@ div.logo {
 @media (min-width: 425px) {
   #container {
     margin: 20px auto; }
-  div.logo {
-    width: 20%; }
   div.logo-container h1 {
     display: none; }
   div.logo-container svg g.headding {
     display: block; }
+  div.logo-container div.logo {
+    width: 20%; }
   ul#doglist li {
     display: inline-block;
     margin: 0 auto; }

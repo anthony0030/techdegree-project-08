@@ -38,9 +38,10 @@ header nav
   ul
     list-style-type: none
     margin: 0
-    padding: 0
+    padding: 0 !important
+    list-style-type: none
   li
-    padding: 20px
+    padding-top: 20px
 
 
 main
@@ -85,7 +86,7 @@ div.logo-container
     margin-bottom: 0
 
 div.logo
-  width: 30%
+  width: 50%
   margin: 0 auto
   svg
     g.headding
@@ -95,16 +96,13 @@ div.logo
   #container
     margin: 20px auto
 
-  div.logo
-    width: 20%
-
   div.logo-container
     h1
       display: none
-    svg
-      g.headding
-        display: block
+    svg g.headding
+      display: block
     div.logo
+      width: 20%
 
 
   ul#doglist
