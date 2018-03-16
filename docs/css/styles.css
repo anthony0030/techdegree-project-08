@@ -25,6 +25,9 @@ a {
   color: #39add1;
   font-weight: 700; }
 
+a:hover {
+  color: #111; }
+
 header {
   padding-top: 10px; }
   header nav {
