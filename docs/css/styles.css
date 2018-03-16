@@ -35,8 +35,6 @@ a:hover {
 header nav svg {
   vertical-align: top;
   width: 18px; }
-  header nav svg path.st0 {
-    fill: #44ACCD; }
 
 header nav ul {
   list-style-type: none;
@@ -45,12 +43,6 @@ header nav ul {
 
 header nav li {
   padding: 20px; }
-
-header nav li:hover a {
-  color: #111; }
-
-header nav li:hover svg .st0 {
-  fill: #111; }
 
 main {
   padding-top: 50px; }
