@@ -1,3 +1,7 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 body {
   margin: 0;
   padding: 0;
@@ -28,29 +32,25 @@ a {
 a:hover {
   color: #111; }
 
-header {
-  padding-top: 10px; }
-  header nav {
-    padding-bottom: 50px;
-    text-align: left;
-    margin-left: 60px;
-    margin-top: 20px; }
-    header nav svg {
-      vertical-align: top;
-      width: 18px; }
-      header nav svg path.st0 {
-        fill: #44ACCD; }
-    header nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0; }
-    header nav li {
-      margin-right: 20px;
-      display: inline-block; }
-      header nav li:hover a {
-        color: #111; }
-      header nav li:hover svg .st0 {
-        fill: #111; }
+header nav svg {
+  vertical-align: top;
+  width: 18px; }
+  header nav svg path.st0 {
+    fill: #44ACCD; }
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+header nav li {
+  padding: 20px; }
+
+header nav li:hover a {
+  color: #111; }
+
+header nav li:hover svg .st0 {
+  fill: #111; }
 
 main {
   padding-top: 50px; }
@@ -102,5 +102,15 @@ div.logo {
   div.logo-container h1 {
     display: none; }
   div.logo-container svg g.headding {
-    display: block; } }
+    display: block; }
+  #container {
+    margin: 20px auto; }
+  header nav {
+    margin-left: 60px;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 10px; }
+    header nav li {
+      margin-right: 20px;
+      display: inline-block; } }
 /*# sourceMappingURL=styles.css.map */
