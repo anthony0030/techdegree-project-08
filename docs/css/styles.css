@@ -56,26 +56,26 @@ footer {
   padding-bottom: 30px;
   color: #ba8058; }
 
-table {
-  margin: 0 auto; }
-  table tr:nth-child(2) td {
-    padding-right: 45px; }
-  table td {
-    padding: 15px; }
-  table svg {
+ul#doglist {
+  padding: 0 !important;
+  list-style-type: none; }
+  ul#doglist li {
+    display: block;
+    margin: 0 auto; }
+  ul#doglist figure {
+    margin: 0; }
+  ul#doglist figcaption {
+    padding-right: 40px; }
+  ul#doglist svg {
     width: 150px; }
-
-td:nth-of-type(1) {
-  color: #B8805E; }
-
-td:nth-of-type(2) {
-  color: #E8AB85; }
-
-td:nth-of-type(3) {
-  color: #824C2D; }
-
-td:nth-of-type(4) {
-  color: #52595E; }
+  ul#doglist li:nth-of-type(1) {
+    color: #B8805E; }
+  ul#doglist li:nth-of-type(2) {
+    color: #E8AB85; }
+  ul#doglist li:nth-of-type(3) {
+    color: #824C2D; }
+  ul#doglist li:nth-of-type(4) {
+    color: #52595E; }
 
 div.logo-container h1 {
   text-align: center;
@@ -89,14 +89,23 @@ div.logo {
     display: none; }
 
 @media (min-width: 425px) {
+  #container {
+    margin: 20px auto; }
   div.logo {
     width: 20%; }
   div.logo-container h1 {
     display: none; }
   div.logo-container svg g.headding {
     display: block; }
-  #container {
-    margin: 20px auto; }
+  ul#doglist li {
+    display: inline-block;
+    margin: 0 auto; }
+  ul#doglist li + li {
+    margin-left: 45px; }
+  ul#doglist figure {
+    margin: 0; }
+  ul#doglist svg {
+    width: 150px; }
   header nav {
     margin-left: 60px;
     text-align: left;
