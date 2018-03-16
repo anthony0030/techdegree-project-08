@@ -85,7 +85,22 @@ td:nth-of-type(3) {
 td:nth-of-type(4) {
   color: #52595E; }
 
+div.logo-container h1 {
+  text-align: center;
+  color: #E9AB82;
+  margin-bottom: 0; }
+
 div.logo {
-  width: 20%;
+  width: 30%;
   margin: 0 auto; }
+  div.logo svg g.headding {
+    display: none; }
+
+@media (min-width: 425px) {
+  div.logo {
+    width: 20%; }
+  div.logo-container h1 {
+    display: none; }
+  div.logo-container svg g.headding {
+    display: block; } }
 /*# sourceMappingURL=styles.css.map */

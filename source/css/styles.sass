@@ -90,10 +90,30 @@ td:nth-of-type(4)
   color: #52595E
 
 
-div.logo
-  width: 20%
-  margin: 0 auto
+div.logo-container
+  h1
+    text-align: center
+    color: #E9AB82
+    margin-bottom: 0
 
+div.logo
+  width: 30%
+  margin: 0 auto
+  svg
+    g.headding
+      display: none
+
+@media(min-width:425px)
+  div.logo
+    width: 20%
+
+  div.logo-container
+    h1
+      display: none
+    svg
+      g.headding
+        display: block
+    div.logo
 
 
   // At a page width of less than 425 pixels, remove the text from the logo and add an H1 tag that contains the logo text.
