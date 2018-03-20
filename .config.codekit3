@@ -16,6 +16,12 @@
 		"oAP": "\/docs\/.gitignore",
 		"oF": 0
 		},
+	"\/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/docs",
+		"oF": 0
+		},
 	"\/source\/_favicon.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -285,6 +291,17 @@
 		"oAP": "\/docs\/favicon\/favicon.ico",
 		"oF": 0
 		},
+	"\/source\/favicon\/logo.png": {
+		"ft": 32768,
+		"iS": 19922,
+		"oA": 2,
+		"oAP": "\/docs\/favicon\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/favicon\/manifest.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -331,17 +348,6 @@
 		"iS": 3443,
 		"oA": 2,
 		"oAP": "\/docs\/favicon\/ms-icon-70x70.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/source\/images\/logo.png": {
-		"ft": 32768,
-		"iS": 19922,
-		"oA": 2,
-		"oAP": "\/docs\/images\/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -443,7 +449,7 @@
 	"displayValue": "techdegree-project-08",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-archer",
-	"lastBuiltDate": 543240292
+	"lastBuiltDate": 543240553
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
