@@ -387,7 +387,7 @@
 	"\/source\/svgs\/background.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/svgs\/background.svg",
 		"oF": 0,
 		"opt": 0,
@@ -397,7 +397,7 @@
 	"\/source\/svgs\/corgi.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/svgs\/corgi.svg",
 		"oF": 0,
 		"opt": 0,
@@ -407,9 +407,9 @@
 	"\/source\/svgs\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/svgs\/logo.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -417,7 +417,7 @@
 	"\/source\/svgs\/nav-contact.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/svgs\/nav-contact.svg",
 		"oF": 0,
 		"opt": 0,
@@ -427,7 +427,7 @@
 	"\/source\/svgs\/nav-heart.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/svgs\/nav-heart.svg",
 		"oF": 0,
 		"opt": 0,
@@ -437,7 +437,7 @@
 	"\/source\/svgs\/nav-location.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/docs\/svgs\/nav-location.svg",
 		"oF": 0,
 		"opt": 0,
@@ -454,7 +454,7 @@
 	"displayValue": "techdegree-project-08",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-archer",
-	"lastBuiltDate": 543235911
+	"lastBuiltDate": 543240017
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2404,7 +2404,7 @@
 		"shouldRunBless": 0
 		},
 	"languageDefaultsSVG": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.svg",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
