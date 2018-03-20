@@ -382,10 +382,10 @@
 	"\/source\/svgs\/background.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/docs\/svgs\/background.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
