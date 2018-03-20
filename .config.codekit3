@@ -16,12 +16,6 @@
 		"oAP": "\/docs\/.gitignore",
 		"oF": 0
 		},
-	"\/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
-		},
 	"\/source\/_favicon.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -460,7 +454,7 @@
 	"displayValue": "techdegree-project-08",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-archer",
-	"lastBuiltDate": 542895742
+	"lastBuiltDate": 543235911
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

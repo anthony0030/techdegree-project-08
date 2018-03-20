@@ -192,12 +192,6 @@ body.loaded div.logo .st2:nth-child(4) {
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms; }
 
-body.loaded svg.corgi {
-  -webkit-animation: rotate360 5s linear infinite;
-          animation: rotate360 5s linear infinite;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%; }
-
 @-webkit-keyframes unhide {
   from {
     opacity: 0; }
@@ -244,6 +238,11 @@ body.loaded svg.corgi {
     margin: 0; }
   ul#doglist svg {
     width: 150px; }
+  body.loaded svg.corgi {
+    -webkit-animation: rotate360 5s linear infinite;
+            animation: rotate360 5s linear infinite;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%; }
   header nav {
     margin-left: 60px;
     text-align: left;
