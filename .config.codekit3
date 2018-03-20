@@ -372,7 +372,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/docs\/js\/script.js",
 		"oF": 0,
 		"sC": 3,
@@ -454,7 +454,7 @@
 	"displayValue": "techdegree-project-08",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-archer",
-	"lastBuiltDate": 543240017
+	"lastBuiltDate": 543240292
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

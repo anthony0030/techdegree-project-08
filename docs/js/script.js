@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(d){d.target.body.classList.add("loaded")});
