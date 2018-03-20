@@ -89,6 +89,143 @@ div.logo {
   div.logo svg g.headding {
     display: none; }
 
+div.logo .st2, div.logo .st1 {
+  opacity: 0; }
+
+body.loaded div.logo .st0, body.loaded div.logo .st1, body.loaded div.logo .st2 {
+  -webkit-animation: unhide 1s forwards;
+          animation: unhide 1s forwards; }
+
+body.loaded div.logo .st1:nth-child(1) {
+  -webkit-animation-delay: 120ms;
+          animation-delay: 120ms; }
+
+body.loaded div.logo .st1:nth-child(2) {
+  -webkit-animation-delay: 240ms;
+          animation-delay: 240ms; }
+
+body.loaded div.logo .st1:nth-child(3) {
+  -webkit-animation-delay: 360ms;
+          animation-delay: 360ms; }
+
+body.loaded div.logo .st1:nth-child(4) {
+  -webkit-animation-delay: 480ms;
+          animation-delay: 480ms; }
+
+body.loaded div.logo .st1:nth-child(5) {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms; }
+
+body.loaded div.logo .st1:nth-child(6) {
+  -webkit-animation-delay: 720ms;
+          animation-delay: 720ms; }
+
+body.loaded div.logo .st1:nth-child(7) {
+  -webkit-animation-delay: 840ms;
+          animation-delay: 840ms; }
+
+body.loaded div.logo .st1:nth-child(8) {
+  -webkit-animation-delay: 960ms;
+          animation-delay: 960ms; }
+
+body.loaded div.logo .st1:nth-child(9) {
+  -webkit-animation-delay: 1080ms;
+          animation-delay: 1080ms; }
+
+body.loaded div.logo .st1:nth-child(10) {
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms; }
+
+body.loaded div.logo .st1:nth-child(11) {
+  -webkit-animation-delay: 1320ms;
+          animation-delay: 1320ms; }
+
+body.loaded div.logo .st1:nth-child(12) {
+  -webkit-animation-delay: 1440ms;
+          animation-delay: 1440ms; }
+
+body.loaded div.logo .st1:nth-child(13) {
+  -webkit-animation-delay: 1560ms;
+          animation-delay: 1560ms; }
+
+body.loaded div.logo .st1:nth-child(14) {
+  -webkit-animation-delay: 1680ms;
+          animation-delay: 1680ms; }
+
+body.loaded div.logo .st1:nth-child(15) {
+  -webkit-animation-delay: 1800ms;
+          animation-delay: 1800ms; }
+
+body.loaded div.logo .st1:nth-child(16) {
+  -webkit-animation-delay: 1920ms;
+          animation-delay: 1920ms; }
+
+body.loaded div.logo .st1:nth-child(17) {
+  -webkit-animation-delay: 2040ms;
+          animation-delay: 2040ms; }
+
+body.loaded div.logo .st1:nth-child(18) {
+  -webkit-animation-delay: 2160ms;
+          animation-delay: 2160ms; }
+
+body.loaded div.logo .st1:nth-child(19) {
+  -webkit-animation-delay: 2280ms;
+          animation-delay: 2280ms; }
+
+body.loaded div.logo .st1:nth-child(20) {
+  -webkit-animation-delay: 2400ms;
+          animation-delay: 2400ms; }
+
+body.loaded div.logo .st2:nth-child(1) {
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms; }
+
+body.loaded div.logo .st2:nth-child(2) {
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms; }
+
+body.loaded div.logo .st2:nth-child(3) {
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms; }
+
+body.loaded div.logo .st2:nth-child(4) {
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms; }
+
+body.loaded svg.corgi {
+  -webkit-animation: rotate360 5s linear infinite;
+          animation: rotate360 5s linear infinite;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%; }
+
+@-webkit-keyframes unhide {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes unhide {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes rotate360 {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg); }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg); } }
+
+@keyframes rotate360 {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg); }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg); } }
+
 @media (min-width: 425px) {
   #container {
     margin: 20px auto; }

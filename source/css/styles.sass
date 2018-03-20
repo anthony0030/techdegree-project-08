@@ -95,7 +95,42 @@ div.logo
     g.headding
       display: none
 
-//Menu animations
+// animations
+div.logo
+  .st2, .st1
+    opacity: 0
+
+body.loaded div.logo
+  .st0, .st1, .st2
+    animation: unhide 1s forwards
+  .st1
+    @for $i from 1 through 20
+      &:nth-child(#{$i})
+        animation-delay: ($i*120ms)
+  .st2
+    @for $i from 1 through 4
+      &:nth-child(#{$i})
+        animation-delay: ($i*250ms)
+
+
+body.loaded svg.corgi
+  animation: rotate360 5s linear infinite
+  transform-origin: 50% 50%
+
+
+//keyframes
+@keyframes unhide
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+@keyframes rotate360
+  from
+    transform: rotateY(0deg)
+  to
+    transform: rotateY(360deg)
+
 
 
 
