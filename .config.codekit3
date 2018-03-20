@@ -374,6 +374,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/source\/js\/script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/docs\/js\/script.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/source\/mockups": {
 		"ft": 65536,
 		"oA": 1,
