@@ -28,9 +28,8 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700; }
-
-a:hover {
-  color: #111; }
+  a:hover {
+    color: #111; }
 
 header nav svg {
   vertical-align: top;
@@ -47,9 +46,8 @@ header nav li {
 
 main {
   padding-top: 50px; }
-
-main h2 {
-  font-size: 28px; }
+  main h2 {
+    font-size: 28px; }
 
 footer {
   width: 100%;
