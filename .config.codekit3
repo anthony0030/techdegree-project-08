@@ -16,11 +16,23 @@
 		"oAP": "\/docs\/.gitignore",
 		"oF": 0
 		},
-	"\/docs": {
-		"ft": 65536,
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
+		"oAP": "\/docs\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/source\/_favicon.jade": {
 		"cB": 0,
@@ -449,7 +461,7 @@
 	"displayValue": "techdegree-project-08",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-archer",
-	"lastBuiltDate": 543240553
+	"lastBuiltDate": 544558717
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
