@@ -7,13 +7,19 @@
 		"uuidString": "9A13AC89-A095-490D-A799-72F858D9CC5C"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/.gitignore",
+		"oF": 0
+		},
+	"\/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -461,7 +467,8 @@
 	"displayValue": "techdegree-project-08",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-archer",
-	"lastBuiltDate": 544558717
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 553606010
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2264,6 +2271,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
