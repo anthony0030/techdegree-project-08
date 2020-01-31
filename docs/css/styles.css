@@ -44,6 +44,7 @@ header nav li {
   padding-top: 20px; }
 
 header nav a:hover {
+  -webkit-transition: color 750ms;
   transition: color 750ms; }
 
 main {
@@ -90,6 +91,7 @@ div.logo {
     display: none; }
 
 div.logo:hover .st2 {
+  -webkit-transition: fill 1s;
   transition: fill 1s;
   fill: #111; }
 
