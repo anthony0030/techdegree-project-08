@@ -17,11 +17,30 @@
 		"oAP": "/docs/.gitignore",
 		"oF": 0
 		},
+	"/.vscode/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/docs/.vscode/settings.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
 	"/docs": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/docs/docs",
 		"oF": 0
+		},
+	"/mockups/mockup.png": {
+		"ft": 32768,
+		"iS": 550804,
+		"oA": 1,
+		"oAP": "/docs/mockups/mockup.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/node_modules": {
 		"ft": 65536,
@@ -420,17 +439,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/source/mockups/mockup.png": {
-		"ft": 32768,
-		"iS": 550804,
-		"oA": 0,
-		"oAP": "/docs/mockups/mockup.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/source/svgs/background.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -502,7 +510,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-archer",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 602173447.95582604
+	"lastBuiltDate": 602695800.97546005
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
