@@ -1,11 +1,13 @@
 {
-  "name": "codekit-project",
+  "name": "techdegree-project-08",
   "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
-  "scripts": {},
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://anthony0030@github.com/anthony0030/techdegree-project-08.git"
+  },
+  "author": "Anthony Veaudry",
   "license": "UNLICENSED",
-  "repository": {},
+  "homepage": "https://anthony0030.github.io/techdegree-project-08",
   "dependencies": {
     "@openfonts/roboto-slab_all": "^1.44.0"
   }
