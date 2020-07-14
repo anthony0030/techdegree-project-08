@@ -44,7 +44,6 @@ header nav li {
   padding-top: 20px; }
 
 header nav a:hover {
-  -webkit-transition: color 750ms;
   transition: color 750ms; }
 
 main {
@@ -91,7 +90,6 @@ div.logo {
     display: none; }
 
 div.logo:hover .st2 {
-  -webkit-transition: fill 1s;
   transition: fill 1s;
   fill: #111; }
 
@@ -212,19 +210,15 @@ body.loaded div.logo .st2:nth-child(4) {
 
 @-webkit-keyframes rotate360 {
   from {
-    -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg); }
+    transform: rotateY(0deg); }
   to {
-    -webkit-transform: rotateY(360deg);
-            transform: rotateY(360deg); } }
+    transform: rotateY(360deg); } }
 
 @keyframes rotate360 {
   from {
-    -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg); }
+    transform: rotateY(0deg); }
   to {
-    -webkit-transform: rotateY(360deg);
-            transform: rotateY(360deg); } }
+    transform: rotateY(360deg); } }
 
 @media (min-width: 425px) {
   #container {
@@ -247,8 +241,7 @@ body.loaded div.logo .st2:nth-child(4) {
   body.loaded svg.corgi {
     -webkit-animation: rotate360 5s linear infinite;
             animation: rotate360 5s linear infinite;
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%; }
+    transform-origin: 50% 50%; }
   header nav {
     margin-left: 60px;
     text-align: left;
