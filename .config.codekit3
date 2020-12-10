@@ -93,6 +93,14 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/source/.nojekyll": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/.nojekyll",
+		"oF": 0
+		},
 	"/source/_favicon.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -570,7 +578,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-archer",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 626084353.03934205
+	"lastBuiltDate": 629289046.12170005
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
