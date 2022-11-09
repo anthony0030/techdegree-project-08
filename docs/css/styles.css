@@ -7,9 +7,9 @@ body {
   text-align: center;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
-  color: #111;
-  background: #edeff0;
-  background-image: url(../svgs/background.svg); }
+  color: #111111;
+  background: #EDEFF0;
+  background-image: url(../svg/background.svg); }
 
 #container {
   max-width: 960px;
@@ -25,10 +25,10 @@ p {
 
 a {
   text-decoration: none;
-  color: #39add1;
+  color: #39ADD1;
   font-weight: 700; }
   a:hover {
-    color: #111; }
+    color: #111111; }
 
 header nav svg {
   vertical-align: top;
@@ -55,7 +55,7 @@ footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
-  color: #ba8058; }
+  color: #BA8058; }
 
 ul#doglist {
   padding: 0 !important;
@@ -97,8 +97,8 @@ div.logo .st2, div.logo .st1 {
   opacity: 0; }
 
 body.loaded div.logo .st0, body.loaded div.logo .st1, body.loaded div.logo .st2 {
-  -webkit-animation: unhide 1s forwards;
-          animation: unhide 1s forwards; }
+  -webkit-animation: show 1s forwards;
+          animation: show 1s forwards; }
 
 body.loaded div.logo .st1:nth-child(1) {
   -webkit-animation-delay: 120ms;
@@ -196,13 +196,13 @@ body.loaded div.logo .st2:nth-child(4) {
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms; }
 
-@-webkit-keyframes unhide {
+@-webkit-keyframes show {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
 
-@keyframes unhide {
+@keyframes show {
   from {
     opacity: 0; }
   to {
@@ -210,15 +210,19 @@ body.loaded div.logo .st2:nth-child(4) {
 
 @-webkit-keyframes rotate360 {
   from {
-    transform: rotateY(0deg); }
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg); }
   to {
-    transform: rotateY(360deg); } }
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg); } }
 
 @keyframes rotate360 {
   from {
-    transform: rotateY(0deg); }
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg); }
   to {
-    transform: rotateY(360deg); } }
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg); } }
 
 @media (min-width: 425px) {
   #container {
@@ -241,7 +245,8 @@ body.loaded div.logo .st2:nth-child(4) {
   body.loaded svg.corgi {
     -webkit-animation: rotate360 5s linear infinite;
             animation: rotate360 5s linear infinite;
-    transform-origin: 50% 50%; }
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%; }
   header nav {
     margin-left: 60px;
     text-align: left;
@@ -250,4 +255,3 @@ body.loaded div.logo .st2:nth-child(4) {
     header nav li {
       margin-right: 20px;
       display: inline-block; } }
-/*# sourceMappingURL=styles.css.map */
