@@ -9,6 +9,6 @@
   "license": "UNLICENSED",
   "homepage": "https://anthony0030.github.io/techdegree-project-08",
   "dependencies": {
-    "@openfonts/roboto-slab_all": "^1.44.0"
+    "@openfonts/roboto-slab_all": "^1.44.1"
   }
 }
